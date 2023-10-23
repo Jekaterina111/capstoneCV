@@ -1,1 +1,3 @@
-# capstoneCV
+# CapstoneCV
+
+## HTML, CSS, Flex 

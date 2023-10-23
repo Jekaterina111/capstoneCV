@@ -1,0 +1,138 @@
+body {
+ color: #40514e;
+ font-family: "Merriweather", serif;
+}
+
+header {
+ background-color: #eff8fd;
+}
+
+.container {
+  margin: 0 auto;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+.title {
+ background-color: #eff8fd;
+ width: 50%;
+}
+
+h1 {
+ color: #66bfbf;
+ font-size: 5.625rem;
+ margin-bottom: 50px;
+ font-family: "Sacramento", cursive;
+}
+
+h2 {
+  color: #66bfbf;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+.pro {
+  text-decoration: underline; 
+}
+
+header img {
+ width: 100%;
+ object-fit: cover;
+}
+
+section {
+  margin-top: 100px;
+}
+
+.profile {
+  width: 50%;
+  align-content: center;
+}
+
+.profile img {
+  width: 25%;
+  height: 25%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.intro {
+  width: 60%;
+  text-align: center;
+}
+
+.tile-image {
+  height: 200px;
+  width: 200px;
+  float: left;
+  margin-right: 50px;
+  margin-bottom: 30px;
+}
+
+.card {
+  width: 100%;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn{
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  border-radius: 8px;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+footer {
+  background-color: #66bfbf;
+  margin-top: 100px;
+}
+
+.links-container {
+  padding: 10px;
+  
+}
+
+.footer-link {
+  padding: 20px;
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+}
+
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+}
+
+h3 {
+  color: #11999e;
+}
+
+@media (max-width: 912px){
+  .container
+  .card {
+    width: 50%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+}
